@@ -1,4 +1,0 @@
-title: "Il mio sito"
-description: "Un sito creato con GitHub Pages e Jekyll."
-baseurl: ""         # lascia vuoto se il sito è nella root (username.github.io)
-url: "https://username.github.io"
