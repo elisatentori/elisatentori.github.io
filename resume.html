@@ -3,9 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elisa Tentori | Resume</title>
+    <title>Elisa Tentori | Postdoctoral Researcher</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: "Helvetica", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: white;
+            padding: 20px 50px;
+            text-align: left;
+            border-bottom: 1px solid rgb(238, 238, 238);
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            justify-content: center;
+        }
+        header .logo {
+            font-size: 22px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            margin-left: 50px;
+        }
+        header .logo a {
+            text-decoration: none;
+            color: black;
+        }
+        header nav {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            justify-content: flex-end;
+            flex-grow: 1;
+        }
+        header nav a {
+            font-family: "Arial", sans-serif;
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+            position: relative;
+        }
+        header nav a::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 3px;
+            background: black;
+            transition: width 0.3s ease-in-out;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+        header nav a:hover::after {
+            width: 100%;
+        }
+        .container {
+            max-width: 90%;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            display: flex;
+            align-items: flex-start;
+            gap: 100px;
+            flex-grow: 1;
+        }
+        .profile {
+            width: 250px;
+            text-align: center;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 0 3px gray;
+        }
+        .profile h1 {
+            font-size: 26px;
+            color: #333;
+            margin-top: 5px;
+        }
+        .profile h2 {
+            font-size: 18px;
+            color: #555;
+            font-weight: normal;
+            margin-top: 5px;
+        }
+        .contact-icons {
+            margin-top: 10px;
+        }
+        .contact-icons a {
+            margin: 10px;
+            color: gray;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        .text-content {
+            flex-grow: 1;
+            max-width: 70%;
+            text-align: justify;
+        }
+        .text-content h2 {
+            font-size: 28px;
+            color: gray;
+            margin-bottom: 10px;
+        }
+        .text-content p {
+            font-size: 18px;
+        }
+        .footer {
+            background-color: rgb(238, 238, 238);
+            color: rgb(59, 59, 59);
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -30,10 +157,11 @@
                 <a href="https://github.com/elisatentori" target="_blank"><i class="fab fa-github"></i> GitHub</a><br>
                 <a href="https://www.linkedin.com/in/elisa-tentori" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
             </div>
+        
         </div>
         <div class="text-content">
             <h2>Resume</h2>
-            <p>Here will be the content related to my professional experience, education, skills, and other relevant information.</p>
+            <p>Qui il resume.</p>
         </div>
     </div>
     <footer class="footer">
