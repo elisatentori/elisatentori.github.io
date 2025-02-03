@@ -11,6 +11,9 @@
             margin: 0;
             padding: 0;
             background-color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             background-color: white;
@@ -71,6 +74,7 @@
             display: flex;
             align-items: flex-start;
             gap: 100px;
+            flex-grow: 1;
         }
         .profile {
             width: 250px;
@@ -122,9 +126,10 @@
             text-align: center;
             padding: 10px;
             font-size: 14px;
+            width: 100%;
             position: relative;
             bottom: 0;
-            width: 100%;
+            flex-shrink: 0;
         }
     </style>
 </head>
@@ -161,7 +166,7 @@
         </div>
     </div>
     <footer class="footer">
-        &copy; Elisa Tentori 2025
+        &copy; Elisa Tentori 2025 – <i class="fab fa-creative-commons"></i> All rights reserved
     </footer>
 </body>
 </html>
