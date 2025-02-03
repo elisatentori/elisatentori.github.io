@@ -10,7 +10,7 @@
             font-family: "Helvetica", sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
+            background-color: white;
         }
         header {
             background-color: white;
@@ -30,27 +30,30 @@
             background: white;
             padding: 20px;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
         }
-        .text-content {
-            flex: 1;
-            text-align: left;
-            padding-right: 20px;
-            text-indent: 20px;
+        .profile {
+            width: 250px;
+            text-align: center;
         }
-        img {
+        .profile img {
             width: 150px;
             height: 150px;
             border-radius: 50%;
         }
         .contact-icons {
-            margin-top: 20px;
+            margin-top: 15px;
         }
         .contact-icons a {
-            margin-right: 10px;
+            margin: 5px;
             color: teal;
             font-size: 24px;
             text-decoration: none;
+        }
+        .text-content {
+            flex: 1;
+            text-align: justify;
+            padding-left: 20px;
         }
     </style>
 </head>
@@ -63,12 +66,9 @@
         </nav>
     </header>
     <div class="container">
-        <div class="text-content">
+        <div class="profile">
             <h1>Elisa Tentori</h1>
-            <p>My name is Elisa Tentori, and I am a postdoctoral researcher at the Department of Biomedical Sciences, University of Padua, Italy.</p>
-            <p>I hold a Master's degree in Physics from the University of Milan, where I developed a strong interest in Statistical Physics and Complex Systems, combining analytical and computational methods.</p>
-            <p>I pursued a Ph.D. in Neuroscience at the Padua Neuroscience Center, University of Padua, with my thesis defense scheduled for spring 2025. My research was supervised by Michele Allegra from the Laboratory of Interdisciplinary Physics and Stefano Vassanelli from the NeuroChip Lab, focusing on optimizing the targeted administration of minimally invasive closed-loop neuromodulation for neural tissue affected by neurological disorders. The aim was developing a computational model capable of predicting where and how to apply stimulation, to control the neural activity.</p>
-            <p>More broadly, I have a deep interest in mathematical and computational modeling, particularly in its application to understanding the properties of complex systems, with a special focus on the brain.</p>
+            <img src="elisa.jpg" alt="Elisa Tentori">
             <div class="contact-icons">
                 <a href="mailto:elisa.tentori@phd.unipd.it"><i class="fas fa-envelope"></i></a>
                 <a href="https://x.com/ElisaTentori_" target="_blank"><i class="fab fa-x-twitter"></i></a>
@@ -77,7 +77,12 @@
                 <a href="https://www.linkedin.com/in/elisa-tentori" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
-        <img src="elisa.jpg" alt="Elisa Tentori">
+        <div class="text-content">
+            <p>My name is Elisa Tentori, and I am a postdoctoral researcher at the Department of Biomedical Sciences, University of Padua, Italy.</p>
+            <p>I hold a Master's degree in Physics from the University of Milan, where I developed a strong interest in Statistical Physics and Complex Systems, combining analytical and computational methods.</p>
+            <p>I pursued a Ph.D. in Neuroscience at the Padua Neuroscience Center, University of Padua, with my thesis defense scheduled for spring 2025. My research was supervised by Michele Allegra from the Laboratory of Interdisciplinary Physics and Stefano Vassanelli from the NeuroChip Lab, focusing on optimizing the targeted administration of minimally invasive closed-loop neuromodulation for neural tissue affected by neurological disorders. The aim was developing a computational model capable of predicting where and how to apply stimulation, to control the neural activity.</p>
+            <p>More broadly, I have a deep interest in mathematical and computational modeling, particularly in its application to understanding the properties of complex systems, with a special focus on the brain.</p>
+        </div>
     </div>
 </body>
 </html>
