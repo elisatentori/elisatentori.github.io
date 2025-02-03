@@ -16,13 +16,16 @@
             background-color: white;
             padding: 15px;
             text-align: center;
+            border-bottom: 1px solid lightgray;
         }
         header nav a {
             color: black;
             margin: 0 15px;
-            text-decoration: lightblue;
+            text-decoration: none;
             font-size: 18px;
-            font-weight: bold;
+        }
+        header nav a:hover {
+            text-decoration: underline;
         }
         .container {
             max-width: 1000px;
@@ -41,6 +44,7 @@
             height: 120px;
             border-radius: 50%;
             border: 4px solid white;
+            box-shadow: 0 0 3px gray;
         }
         .profile h1 {
             font-size: 20px;
@@ -67,6 +71,11 @@
             text-align: justify;
             padding-left: 20px;
         }
+        .text-content h2 {
+            font-size: 22px;
+            color: gray;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -81,7 +90,7 @@
         <div class="profile">
             <img src="elisa.jpg" alt="Elisa Tentori">
             <h1>Elisa Tentori</h1>
-            <h2>Postdoctoral researcher</h2>
+            <h2>Postdoctoral researcher<br>University of Padova</h2>
             <div class="contact-icons">
                 <a href="mailto:elisa.tentori@phd.unipd.it"><i class="fas fa-envelope"></i> Email</a><br>
                 <a href="https://x.com/ElisaTentori_" target="_blank"><i class="fab fa-x-twitter"></i> Twitter</a><br>
@@ -89,9 +98,9 @@
                 <a href="https://github.com/elisatentori" target="_blank"><i class="fab fa-github"></i> GitHub</a><br>
                 <a href="https://www.linkedin.com/in/elisa-tentori" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
             </div>
-            
         </div>
         <div class="text-content">
+            <h2>About me</h2>
             <p>My name is Elisa Tentori, and I am a postdoctoral researcher at the Department of Biomedical Sciences, University of Padua, Italy.</p>
             <p>I hold a Master's degree in Physics from the University of Milan, where I developed a strong interest in Statistical Physics and Complex Systems, combining analytical and computational methods.</p>
             <p>I pursued a Ph.D. in Neuroscience at the Padua Neuroscience Center, University of Padua, with my thesis defense scheduled for spring 2025. My research was supervised by Michele Allegra from the Laboratory of Interdisciplinary Physics and Stefano Vassanelli from the NeuroChip Lab, focusing on optimizing the targeted administration of minimally invasive closed-loop neuromodulation for neural tissue affected by neurological disorders. The aim was developing a computational model capable of predicting where and how to apply stimulation, to control the neural activity.</p>
