@@ -4,37 +4,6 @@
 #   The weight parameter defines the order that the links will appear in.
 
 
-[[main]]
-  name = "Curriculum Vitae"
-  url = "#CV"
-  weight = 2
-
-[[main]]
-  name = "My Work"
-  url = "#mywork"
-  weight = 3
-
-[[main]]
-  name = "Publications"
-  identifier = "publications"
-  weight = 4
-
-[[main]]
-  parent = "publications"
-  name = "Selected publications"
-  url = "#publications_featured"
-  weight = 5
-
-[[main]]
-  parent = "publications"
-  name = "Recent publications"
-  url = "#publications"
-  weight = 6
-
-[[main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 7
 
 
 # Link to a PDF of your resume/CV from the
